@@ -43,6 +43,7 @@ int main()
 
     cout << "Before erase, Size ->" << d.size() << endl;
     d.erase(d.begin(),d.begin()+1);
+    // Removing first element
     cout << "After erase, Size ->" << d.size() << endl;
 
     cout << "Elements Left in Deque" << endl;

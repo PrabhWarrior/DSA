@@ -14,6 +14,7 @@ int main()
         cout << i << " ";
     }
     cout << endl;
+    // for each loop
 
     vector<int> v;
     // capacity means -> Total memory allocated
