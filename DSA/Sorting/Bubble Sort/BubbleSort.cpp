@@ -23,10 +23,11 @@ void bubbleSort(int arr[], int n)
                 swapped = true;
             }
         }
-        if(swapped == false)
-        { // already sorted 
+        if (swapped == false)
+        { // already sorted
             break;
         }
+        printArray(arr, n);
     }
 }
 
